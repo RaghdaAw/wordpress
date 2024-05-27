@@ -6,10 +6,9 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>
-        Hallo mijn naam is Niek Hendrix
-    </h1>
-
+    <?php wp_nav_menu() ?>
+    <?php get_the_title() ?>
+    <?php get_the_content() ?>
     <?php wp_footer() ?>
 </body>
 </html>
