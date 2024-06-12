@@ -1,0 +1,22 @@
+p {
+  color: aqua;
+  font-size: small;
+}
+.test p {
+  padding: 10px;
+  color: rgb(49, 21, 235);
+  font-size: 20px;
+}
+
+.test p a{
+text-decoration: none;
+
+}
+a:hover {
+    text-decoration: none;
+    background: #cdfeaa;
+  }
+  
+video {
+  border: 2px yellow solid;
+}
