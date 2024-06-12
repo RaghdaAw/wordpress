@@ -4,7 +4,3 @@
     <?php echo get_the_content() ?>
     <?php wp_footer() ?>
 
-
-    </body>
-
-    </html>
