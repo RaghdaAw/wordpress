@@ -1,4 +1,17 @@
 
+.depicter-2-element-37 .depicter-bullet-item{
+	background-color:rgba(0, 0, 0, 0.5);
+	border-radius:3px 3px 3px 3px ;
+	width:15px;
+	height:6px;
+}
+.depicter-2-element-37 .depicter-bullet-item.depicter-bullet-active{
+	background-color:#000;
+}
+.depicter-2-element-37 .depicter-bullets-wrapper{
+	gap:5px;
+	flex-direction:row;
+}
 .depicter-revert .depicter-2-element-27{
 	font-size:23px;
 	color:#000;
@@ -87,7 +100,7 @@
 .depicter-revert .depicter-2-section-7 .depicter-section-background{
 	background-color:#FFF;
 }
-.depicter-revert .depicter-2-element-20{
+.depicter-revert .depicter-2-element-35{
 	font-size:34px;
 	color:#000;
 	font-family:"Open Sans";
@@ -109,16 +122,24 @@
 .depicter-revert .depicter-2-section-9 .depicter-section-background{
 	background-color:#FFF;
 }
-.depicter-revert .depicter-2-element-31{
-	font-size:34px;
+.depicter-revert .depicter-2-element-39{
+	font-size:23px;
 	color:#000;
 	font-family:"Open Sans";
 	font-weight:300;
 	line-height:120%;
 	background-color:transparent;
 }
-.depicter-revert .depicter-2-element-15{
-	font-size:23px;
+.depicter-revert .depicter-2-element-38{
+	font-size:1px;
+	color:#000;
+	font-family:"Open Sans";
+	font-weight:300;
+	line-height:120%;
+	background-color:transparent;
+}
+.depicter-revert .depicter-2-element-31{
+	font-size:34px;
 	color:#000;
 	font-family:"Open Sans";
 	font-weight:300;

@@ -32,6 +32,18 @@
 }
 
 /* MEDID*/
+h1{
+  justify-content: center;
+  display: flex;
+  
+  text-align: center;
+  /* font-family: cursive;
+  font-size: 40px;
+  color: #6A0572;
+  text-align: center;
+  margin: 40px 0; */
+  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+}
 .media {
   display: flex;
   justify-content: center;
@@ -84,7 +96,7 @@ img .wp-image-248{
     height: 250px;
     /* border-radius: 8px; */
 }
-.categories-filter {
+#menu-menu{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -93,28 +105,28 @@ img .wp-image-248{
     margin-top: 50px;
   }
   
-  .categories-filter li {
+  #menu-menu li {
     font-size: larger;
     background-color: #6c7371;
-    padding: 10px 20px;
+    padding: 8px 10px;
     border-radius: 5px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s;
   }
   
-  .categories-filter li:hover {
+  #menu-menu li:hover {
     background-color: #5a625e;
     transform: translateY(-5px);
     box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
   }
   
-  .categories-filter li a {
+  #menu-menu li a {
     text-decoration: none;
     color: white;
     transition: color 0.3s;
   }
   
-  .categories-filter li a:hover {
+  #menu-menuli a:hover {
     color: #f0f0f0;
   }
 
@@ -127,6 +139,16 @@ img .wp-image-248{
     transform: scale(1.1);
     transition: transform 0.5s;
     /* transform: scale(1.5); */
+}
+.Paintings{
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+  margin: 10px 0;
+  background-color: #f0f0f0;
+    padding: 10px;
+    border-left: 5px solid #ccc;
 }
 
 /* media */
