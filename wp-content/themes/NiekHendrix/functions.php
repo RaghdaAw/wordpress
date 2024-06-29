@@ -1,4 +1,3 @@
-
 <?php
 
 
@@ -50,3 +49,13 @@ function load_stylesheets()
     );
 
     add_action('wp_enqueue_scripts', 'load_scripts');
+// ..............................
+function add_class_to_paragraphs($content) {
+    // Check if we are in a single post
+    if (is_single()) {
+        // Add the desired class to all <p> tags in the post content
+        $content = str_replace('<p>', '<p class="your-class">', $content);
+    }
+    return $content;
+}
+add_filter('the_content', 'add_class_to_paragraphs');
