@@ -12,10 +12,10 @@
                 <div class="figure test">
                     <h3><?php the_title() ?></h3>
                     <?php if (the_content()): ?>
-                                                    <img src="<?php the_content(); ?>" class="figure-img img-fluid rounded">
-                        <?php endif; ?>
-                        <!-- <figcaption class="figure-caption">A caption for the above image.</figcaption> -->
-                    
+                        <img src="<?php the_content(); ?>" class="figure-img img-fluid rounded">
+                    <?php endif; ?>
+                    <!-- <figcaption class="figure-caption">A caption for the above image.</figcaption> -->
+
                 </div>
             <?php endwhile; endif; ?>
     </div>
